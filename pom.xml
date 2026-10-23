@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.2.5</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>co.edu.unicauca</groupId>
+    <artifactId>saberpro-microservices-parent</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>Banco de Preguntas Saber PRO - Microservicios</name>
+    <description>Taller 09: Comunicacion Sincrona y Asincrona de Microservicios (Spring Boot + REST + RabbitMQ)</description>
+
+    <properties>
+        <java.version>17</java.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <modules>
+        <module>user-service</module>
+        <module>validation-service</module>
+        <module>question-service</module>
+        <module>lifecycle-service</module>
+        <module>review-service</module>
+        <module>notification-service</module>
+        <module>simulacro-service</module>
+    </modules>
+</project>

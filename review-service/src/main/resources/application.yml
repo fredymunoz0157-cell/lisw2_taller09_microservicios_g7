@@ -1,0 +1,15 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: review-service
+  rabbitmq:
+    host: ${RABBITMQ_HOST:localhost}
+    port: ${RABBITMQ_PORT:5672}
+    username: ${RABBITMQ_USER:guest}
+    password: ${RABBITMQ_PASS:guest}
+
+services:
+  lifecycle:
+    url: ${LIFECYCLE_SERVICE_URL:http://localhost:8084}

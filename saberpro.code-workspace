@@ -1,0 +1,15 @@
+{
+  "folders": [
+    { "path": "." },
+    { "path": "user-service" },
+    { "path": "validation-service" },
+    { "path": "question-service" },
+    { "path": "lifecycle-service" },
+    { "path": "review-service" },
+    { "path": "notification-service" },
+    { "path": "simulacro-service" }
+  ],
+  "settings": {
+    "java.configuration.updateBuildConfiguration": "automatic"
+  }
+}

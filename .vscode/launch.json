@@ -1,0 +1,68 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "1. User Service (:8081)",
+      "request": "launch",
+      "mainClass": "co.edu.unicauca.user.UserServiceApplication",
+      "projectName": "user-service"
+    },
+    {
+      "type": "java",
+      "name": "2. Validation Service (:8082)",
+      "request": "launch",
+      "mainClass": "co.edu.unicauca.validation.ValidationServiceApplication",
+      "projectName": "validation-service"
+    },
+    {
+      "type": "java",
+      "name": "3. Question Service (:8083)",
+      "request": "launch",
+      "mainClass": "co.edu.unicauca.question.QuestionServiceApplication",
+      "projectName": "question-service"
+    },
+    {
+      "type": "java",
+      "name": "4. Lifecycle Service (:8084)",
+      "request": "launch",
+      "mainClass": "co.edu.unicauca.lifecycle.LifecycleServiceApplication",
+      "projectName": "lifecycle-service"
+    },
+    {
+      "type": "java",
+      "name": "5. Review Service (:8085)",
+      "request": "launch",
+      "mainClass": "co.edu.unicauca.review.ReviewServiceApplication",
+      "projectName": "review-service"
+    },
+    {
+      "type": "java",
+      "name": "6. Notification Service (:8086)",
+      "request": "launch",
+      "mainClass": "co.edu.unicauca.notification.NotificationServiceApplication",
+      "projectName": "notification-service"
+    },
+    {
+      "type": "java",
+      "name": "7. Simulacro Service (:8087 - Clases UML Simulacros y Reportes)",
+      "request": "launch",
+      "mainClass": "co.edu.unicauca.simulacro.SimulacroServiceApplication",
+      "projectName": "simulacro-service"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Iniciar Todos los Microservicios SaberPRO",
+      "configurations": [
+        "1. User Service (:8081)",
+        "2. Validation Service (:8082)",
+        "3. Question Service (:8083)",
+        "4. Lifecycle Service (:8084)",
+        "5. Review Service (:8085)",
+        "6. Notification Service (:8086)",
+        "7. Simulacro Service (:8087 - Clases UML Simulacros y Reportes)"
+      ]
+    }
+  ]
+}
